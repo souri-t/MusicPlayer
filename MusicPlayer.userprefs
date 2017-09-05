@@ -1,0 +1,15 @@
+﻿<Properties StartupConfiguration="{2B5862FC-8285-4EA8-A34F-5D6683E478AE}|Default">
+  <MonoDevelop.Ide.Workbench />
+  <MonoDevelop.Ide.ItemProperties.MusicPlayer.Droid PreferredExecutionTarget="Android.Nexus_5X_API_26" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/hiyoshiyousuke/Projects/MusicPlayer/Droid/MainActivity.cs" relfile="Droid/MainActivity.cs" line="21" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.MusicPlayer.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.A84B8364-B7EC-4EF7-9769-E084365D4E82">
+    <MonoDevelop.MacDev.AppleDevelopmentTeam />
+  </MonoDevelop.Ide.ItemProperties.MusicPlayer.iOS>
+</Properties>

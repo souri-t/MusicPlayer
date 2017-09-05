@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ContentPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:MusicPlayer"
+    x:Class="MusicPlayer.MusicPlayerPage"
+    BackgroundColor="Gray">
+
+<StackLayout>
+ <!--   <BoxView WidthRequest="100"
+       HeightRequest="250"
+       BackgroundColor="#cccccc">
+            <Image Source="" x:Name="imageView"/>
+            <Label Text="aaa" 
+            HorizontalOptions="EndAndExpand"/>
+    </BoxView>-->
+    <StackLayout
+            WidthRequest="100"
+            HeightRequest="250"
+            BackgroundColor="#cccccc"
+            Orientation="Horizontal"
+            HorizontalOptions="Fill">
+       <!-- <Label Text="Artist" 
+            HorizontalOptions="CenterAndExpand"/>-->
+        <Image Source="" x:Name="albumImage"/>
+    </StackLayout>        
+    <StackLayout
+        BackgroundColor="#aaaaff"
+        Orientation="Vertical"
+        HorizontalOptions="Fill">
+        <StackLayout
+            BackgroundColor="#aaaaff"
+            Orientation="Horizontal"
+            HorizontalOptions="Fill">
+        <Label Text="Artist" 
+            HorizontalOptions="EndAndExpand"/>
+        <Label Text="title" 
+            x:Name="artistLabel"
+            AutomationId="artistLabel_auto"
+            HorizontalOptions="StartAndExpand"/>
+        </StackLayout>
+        <StackLayout
+            BackgroundColor="#aaaaff"
+            Orientation="Horizontal"
+            HorizontalOptions="Fill">
+        <Label Text="Album" 
+            HorizontalOptions="EndAndExpand"/>
+        <Label Text="title" 
+            x:Name="albumLabel" 
+            HorizontalOptions="StartAndExpand"/>
+        </StackLayout> 
+        <StackLayout
+            BackgroundColor="#aaaaff"
+            Orientation="Horizontal"
+            HorizontalOptions="Fill">
+        <Label Text="Song" 
+            x:Name="songLabel" 
+            HorizontalOptions="EndAndExpand"/>
+        <Label Text="title" 
+            HorizontalOptions="StartAndExpand"/>
+        </StackLayout> 
+    </StackLayout>    
+    <StackLayout
+        Orientation="Horizontal"
+        HorizontalOptions="CenterAndExpand">
+        <Button Text="Select" 
+            HorizontalOptions="End"
+            Clicked = "OnSelectButtonClicked"/>
+    </StackLayout>
+    <StackLayout
+        Orientation="Horizontal"
+        HorizontalOptions="CenterAndExpand">
+        <Button Text="Prev" 
+            HorizontalOptions="Start"
+            Clicked = "OnPreviousButtonClicked"/>
+        <Button Text="Play" 
+            HorizontalOptions="Center"
+            Clicked = "OnPlayButtonClicked"/>
+        <Button Text="Next" 
+            HorizontalOptions="End"
+            Clicked = "OnNextButtonClicked"/>
+    </StackLayout>
+    <StackLayout
+        Orientation="Horizontal"
+        HorizontalOptions="CenterAndExpand">
+        <Button
+            Text="Pause" 
+            HorizontalOptions="End"
+            Clicked = "OnPauseButtonClicked"/>
+    </StackLayout>
+
+</StackLayout>
+
+
+</ContentPage>
